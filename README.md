@@ -16,6 +16,6 @@ Frontend :
 		•	ReactJs
 		•	Tailwind CSS – to customize the design.			
 		•	React router – used to define multiple routes.
-		•	React Hooks – useState(to have state variables in functional components) and useEffect(to tell React that the component needs to do something after render 				like data fetching from API).
+		•	React Hooks – useState(to have state variables in functional components) and useEffect(to tell React that the component needs to do something after render like data fetching from API).
 		•	Axios – to make HTTP requests from node. js or XMLHttpRequests from the browser.
 		•	Flowbite – to get a responsive Navbar.
