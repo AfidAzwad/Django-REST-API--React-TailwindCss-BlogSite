@@ -150,7 +150,11 @@ CLOUDINARY_STORAGE = {
 DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 
 X_FRAME_OPTIONS = 'SAMEORIGIN' # to prevent the content from being used in an invisible frame(<iframe>) by anyone
-CORS_ORIGIN_ALLOW_ALL = True # the list of origins authorized to make requests
+# the list of origins authorized to make requests
+CORS_ALLOWED_ORIGINS = [
+    'https://localhost:8000',
+    'http://localhost:8000',
+] 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
